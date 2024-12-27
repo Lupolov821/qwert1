@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="page1.html", style="color:#D8FFDC">Главная</a>
+        <a href="page2.html", style="color:#D8FFDC">В мире животных</a>
+        <a href="page3.html", style="color:#D8FFDC">Галерея</a>
+        <a href="page4.html", style="color:#D8FFDC">Флора</a>
+    </nav>
+    
+    <header>
+        <h1 style="color:#D8FFDC">Галерея</h1>
+        <p></p>
+    </header>
+    
+    <main>
+        <section>
+            <h2 style="color: rgb(67, 187, 117)">Красивые пейзажы данного парка</h2>
+            <h3>Этот раздел посвещен красивым пейзажам Лосиного острова</h3>
+        </section>
+        
+        <section>
+            <h2 style="color: rgb(67, 187, 117)">Пару красивых пейзажей парка</h2>
+            <div class="gallery">
+                <img src="https://static.tildacdn.com/tild3636-6131-4434-b331-623164306630/461A1213-Edit.jpg" alt="Фотография 1">
+                <img src="https://static.tildacdn.com/tild3037-6266-4661-b166-633866666434/GC9B1666_as_Smart_Ob.jpg" alt="Фотография 2">
+                <img src="https://static.tildacdn.com/tild6533-3461-4966-a437-303166313663/461A8904-1.jpg" alt="Фотография 3">
+                <img src="https://static.tildacdn.com/tild6162-6132-4433-b430-643130323331/IMG_5804.jpg" alt="Фотография 4">
+                <img src="https://static.tildacdn.com/tild3165-6432-4662-b530-373135363936/IMG_9058_as_Smart_Ob.jpg" alt="Фотография 5">
+                <img src="https://static.tildacdn.com/tild6636-6631-4739-b533-303061636361/IMG_5370_as_Smart_Ob.jpg" alt="Фотография 6">
+                <img src="https://static.tildacdn.com/tild3732-3965-4166-a337-613562313938/IMG_6560_as_Smart_Ob.jpg" alt="Фотография 7">
+                <img src="https://static.tildacdn.com/tild3965-3666-4438-b764-616462346562/IMG_6438.jpg" alt="Фотография 8">
+                <img src="https://static.tildacdn.com/tild6335-3232-4535-a430-376462633135/GC9B5223_as_Smart_Ob.jpg" alt="Фотография 9">
+                <img src="https://static.tildacdn.com/tild3036-3734-4661-a366-323233646531/_MG_8763.jpg" alt="Фотография 10">
+            </div>
+        </section>
+    </main>
+    
+    <!-- Подвал -->
+    <footer>
+        <h3 style="color:#D8FFDC">Лосиный остров</h3>
+        <p style="color:#D8FFDC">Интересно? Смотри следующий раздел)</p>
+    </footer>
+    <style>
+        /* стили */
+        body {
+            font-family: Arial, sans-serif;
+            background-color:rgb(232, 248, 239);
+            color: #333;
+        }
+        
+        .navbar {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 15px;
+            background-color:rgb(27, 168, 86); /* шапка */
+            color: white;
+        }
+        
+        .navbar a {
+            text-decoration: none;
+            color: #90EE90;
+        }
+        .navbar a:hover {
+            text-decoration: none;
+        }
+        
+        .navbar a:hover {
+            text-decoration: underline;
+            }
+
+header {
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgb(67, 187, 117); /* начало страницы */
+    padding: 25px;
+    border-radius: 25px;
+}
+
+main section {
+    max-width: 1150px;
+    margin: 45px auto;
+    padding: 125px;
+    background-color:rgb(209, 243, 216); /* фон */
+    border-radius: 80px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color:rgb(27, 168, 86) ; /* подвал */
+    margin-top: 90px;
+}
+    </style>
+</body>
+</html>

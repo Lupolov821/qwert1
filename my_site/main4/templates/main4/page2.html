@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>В мире животных</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="page1.html", style="color:#D8FFDC">Главная</a>
+        <a href="page2.html", style="color:#D8FFDC">В мире животных</a>
+        <a href="page3.html", style="color:#D8FFDC">Галерея</a>
+        <a href="page4.html", style="color:#D8FFDC">Флора</a>
+    </nav>
+    
+    <header>
+        <h1 style="color:#D8FFDC">В мире животных</h1>
+        <p></p>
+    </header>
+    
+    <main>
+        <section>
+            <h2 style="color: rgb(67, 187, 117)">Здесь вы увидите разных зверей данного парка, а именно:</h2>
+            <h3>Лоси,олени,кабаны,лисицы,хорьки,бобры,утки и даже змей.</h3>
+            <h3>Также в парке можно встретить сов, лебедей, гусей, цапель, соколов, соловьёв, зябликов и других птиц.</h3>
+        </section>
+        
+        <section>
+        <h2 style="color: rgb(67, 187, 117)">А вот собственно и сами животные:</h2>
+            <div class="gallery">
+                <img src="https://static.tildacdn.com/tild3638-6330-4166-b334-623234323862/GC9B1137_as_Smart_Ob.jpg" alt="Фотография 1">
+                <img src="https://static.tildacdn.com/tild3065-3361-4766-a539-353535383939/GC9B7335_as_Smart_Ob.jpg" alt="Фотография 2">
+                <img src="https://static.tildacdn.com/tild3964-3731-4937-b236-663663636631/461A8052-.jpg" alt="Фотография 3">
+                <img src="https://static.tildacdn.com/tild3065-3933-4835-a338-313463616135/GC9B0655-1.jpg" alt="Фотография 4">
+                <img src="https://static.tildacdn.com/tild6536-3632-4262-b465-336362346631/IMG_3323.jpg" alt="Фотография 5">
+                <img src="https://static.tildacdn.com/tild3462-3034-4364-a330-383165663331/IMG_4673_as_Smart_Ob.jpg" alt="Фотография 6">
+                <img src="https://static.tildacdn.com/tild3039-3138-4132-b738-333033363638/IMG_4151.jpg" alt="Фотография 7">
+                <img src="https://static.tildacdn.com/tild6266-3161-4666-b566-383366623436/2j_4251a.jpg" alt="Фотография 8">
+                <img src="https://static.tildacdn.com/tild6536-3761-4434-a334-333733663537/IMG_9688.jpg" alt="Фотография 9">
+                <img src="https://static.tildacdn.com/tild3963-3663-4462-b039-356466306231/GC9B9392-.jpg" alt="Фотография 10">
+                <img src="https://static.tildacdn.com/tild6633-6439-4434-b137-613666366230/9j_2044-denoise.jpg" alt="Фотография 11">
+                <img src="https://static.tildacdn.com/tild3063-3831-4065-a665-353865633432/6_j_IMG_3899x.jpg" alt="Фотография 12">
+                <img src="https://static.tildacdn.com/tild6634-6430-4434-b662-363836383465/7j_3864k.jpg" alt="Фотография 13">
+                <img src="https://static.tildacdn.com/tild6262-3566-4333-b361-343736643234/_MG_2760.jpg" alt="Фотография 14">
+                <img src="https://static.tildacdn.com/tild3865-3930-4431-b966-383437393435/20j_IMG_4442.jpg" alt="Фотография ">
+                <img src="https://static.tildacdn.com/tild3662-3130-4833-b233-373232383264/GC9B7065.jpg" alt="Фотография ">
+                <img src="https://www.mos.ru/upload/newsfeed/newsfeed/sovi(84).jpg" alt="Фотография ">
+                <img src="https://avatars.mds.yandex.net/i?id=826334f8de10bb293a6b7f92d3f393e8_l-5018153-images-thumbs&n=13" alt="Фотография ">
+            </div> 
+        </section>
+    </main>
+    
+    <!-- Подвал -->
+    <footer>
+        <h3 style="color:#D8FFDC">Лосиный остров</h3>
+        <p style="color:#D8FFDC">Интересно? Смотри следующий раздел)</p>
+    </footer>
+    <style>
+        /* стили */
+        body {
+            font-family: Arial, sans-serif;
+            background-color:rgb(232, 248, 239);
+            color: #333;
+        }
+        
+        .navbar {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 15px;
+            background-color:rgb(27, 168, 86); /* шапка */
+            color: white;
+        }
+        
+        .navbar a {
+            text-decoration: none;
+            color: #90EE90;
+        }
+        .navbar a:hover {
+            text-decoration: none;
+        }
+        
+        .navbar a:hover {
+            text-decoration: underline;
+            }
+
+header {
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgb(67, 187, 117); /* начало страницы */
+    padding: 25px;
+    border-radius: 25px;
+}
+
+main section {
+    max-width: 1100px;
+    margin: 45px auto;
+    padding: 110px;
+    background-color:rgb(209, 243, 216); /* фон */
+    border-radius: 80px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color:rgb(27, 168, 86) ; /* подвал */
+    margin-top: 90px;
+}
+    </style>
+</body>
+</html>
